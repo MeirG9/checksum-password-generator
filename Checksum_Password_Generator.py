@@ -2,9 +2,6 @@ import random
 import string
 import argparse
 
-USER_NAME = "liron"
-CHECKSUM = 1587
-
 def find_password(sum_of_predict_password):
     """
     Generate a random password that matches the given sum of ASCII values.
