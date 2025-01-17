@@ -48,7 +48,7 @@ def main():
     except ValueError as e:
         print(e)
     except Exception as e:
-        print(f"An unexpected error occurred: {e}")
+        print(f"An unexpected error occurred! : {e}")
 
 if __name__ == "__main__":
     main()
